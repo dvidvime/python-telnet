@@ -1,0 +1,6 @@
+services:
+  python-telnet:
+    restart: always
+    build: .
+    ports:
+      - 8910:8910
